@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Demo Cart</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/content/animations.css" type='text/css' />
+    <link rel="stylesheet" href="assets/content/skel.css" />
+    <link rel="stylesheet" href="assets/content/style-wide.css" />
+    <link rel="stylesheet" href="assets/content/style.css" />
+    <link rel="stylesheet" href="assets/content/ie/v8.css" />
+    <link href="views/store/store.css" rel="stylesheet" />
+
+    <!-- JS -->
+    <script type="text/javascript" language="JavaScript" src="assets/content/ie/html5shiv.js"></script>
+    <script type="text/javascript" language="JavaScript" src="assets/content/scripts/jquery.min.js"></script>
+    <script type="text/javascript" language="JavaScript" src="assets/content/scripts/jquery.dropotron.min.js"></script>
+    <script type="text/javascript" language="JavaScript" src="assets/content/scripts/jquery.scrollgress.min.js"></script>
+    <script type="text/javascript" language="JavaScript" src="assets/content/scripts/skel.min.js"></script>
+    <script type="text/javascript" language="JavaScript" src="assets/content/scripts/skel-layers.min.js"></script>
+    <script type="text/javascript" language="JavaScript" src="assets/content/scripts/init.js"></script>
+    <script type="text/javascript" language="JavaScript" src="assets/content/scripts/cnt.js"></script>
+    <script type="text/javascript" language="JavaScript" src="assets/content/scripts/simpleCart.js?ver=3.4.1"></script>
+    <script type="text/javascript" language="JavaScript" src="assets/content/scripts/gen_validatorv4.js"></script>
+</head>
+<body data-ng-app="app" class="landing">
+    <header id="header" class="alt">
+        <h1><a href="/">Demo cart</a></h1>
+        <nav id="nav">
+            <ul>
+                <li><a href="#/home">Home</a></li>
+                <li><a href="#/" class="button">Store Home</a></li>
+                <li>
+                    <a href="#/Login" class="icon fa-angle-down">Member Signin</a>
+                </li>
+                <li><a href="#/Register">Sign Up For Membership</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <ng-view></ng-view>
+    </section>
+
+    <!-- ASSETS -->
+    <script src="assets/js/angular.min.js"></script>
+    <script src="assets/js/angular-animate.min.js"></script>
+    <script src="assets/js/angular-cookies.min.js"></script>
+    <script src="assets/js/angular-route.min.js"></script>
+    <script src="assets/js/angular-touch.min.js"></script>
+    <script src="assets/js/moment.min.js"></script>
+    <script src="assets/js/angular-moment.min.js"></script>
+    <script src="assets/js/angular-truncate.js"></script>
+    <script src="assets/js/angular-preload-image.min.js"></script>
+
+    <!-- MODULES -->
+    <script src="app/app.routes.js"></script>
+    <script src="app/app.config.js"></script>
+    <script src="app/app.core.js"></script>
+    <script src="app/app.services.js"></script>
+    <script src="app/app.js"></script>
+
+    <!-- CONTROLLERS -->
+    <script src="views/store/store.ctrl.js"></script>
+    <script src="views/singup/register.ctrl.js"></script>
+    <script src="views/signin/login.ctrl.js"></script>
+
+    <!-- SERVICES -->    
+    <script src="app/services/page.val.js"></script>
+</body>
+</html>

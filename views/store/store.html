@@ -1,0 +1,70 @@
+<!-- Main -->
+<section id="banner">
+    <a name="top"></a>
+    <h2></h2>
+</section>
+<section id="main" class="container">
+    <section class="box special features">
+        <a class="cartlink button" href="javascript:void(0)" scroll-on-click>
+            Cart: <span class="simpleCart_quantity" id="idItemQuantity">0</span> items
+        </a>
+        <header class="major"></header>
+        <div class="features-row">
+            <div style="float: left; padding: 3em; width: 100%;border:2px solid #ddd;border-top:none;">
+                <div class="simpleCart_shelfItem">
+                    <div id="divItemList">
+                        <div class="divitem_shelfItem" data-ng-repeat="objItem in store.data track by $index">
+                            <div style="display:inline-block; width:45%; float:left;">
+                                <img class="image fit" src="{{objItem.fResFoodPic}}" id="itemfResFoodPic{{$index}}" />
+                            </div>
+                            <div style="display:inline-block; width:45%;text-align: left;">
+                                <h3><a class="item_name"><span id="itemfFoodName{{$index}}">{{objItem.fFoodName }}</span></a></h3>
+                                <h4><span id="itemfResFoodID{{$index}}">Food ID:{{objItem.fResFoodID}}</span></h4>
+                                <h4 class="item_xoxo"><span id="itemfResFoodIntr{{$index}}">Description:{{objItem.fResFoodIntr}}</span></h4>
+                                <h4 class="item_price" id="itemfBasePrice{{$index}}"><span>Base Price:{{objItem.fBasePrice}}</span></h4><br />
+                                <br />
+                                <input type="button" class="item_add" value="add to cart" id="AddToCardId{{$index}}" scroll-on-click />
+                            </div>
+                            <br /><hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+<section id="idCartsection" class="container">
+    <div class="row uniform">
+        <div class="12u 12u(2)">
+            <section class="box special">
+                <a name="cartsection"></a>
+                <h3>Shopping Cart</h3>
+                <p class="align-right"><a href="javascript:void(0)" class="simpleCart_empty button">empty cart</a> <br /> </p>
+                <div class="simpleCart_items"></div>
+                <div id="cartTotal" class="align-right">
+                    SubTotal: <span class="simpleCart_total"></span>
+                </div>
+                <div id="cartTotal" class="align-right">
+                    <span>See ** for how shipping fee discount is calculated&nbsp;&nbsp;</span>
+                    Shipping <span class="simpleCart_shipping"></span>
+                </div>
+                <div id="cartTotal" class="align-right">
+                    Total: <span class="simpleCart_grandTotal"></span>
+                </div>
+                <div class="clear">&nbsp;</div>
+
+                <div id="cartTotal">
+                    <p class="align-right">
+                        <a class="button alt" id="idContinueShopping" href="javascript:void(0)">Continue Shopping</a>
+                        <span><a href="javascript:void(0)" class="simpleCart_checkout button">Checkout</a></span>
+                    </p>
+                </div>
+                <p>shippingpolicy</p>
+                <p>reminder</p>
+                <ul class="actions">
+                    <li><a href="javascript:void(0);" class="button alt" id="idLearnMore">Learn More</a></li>
+                </ul>
+            </section>
+        </div>
+    </div>
+</section>

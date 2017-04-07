@@ -1,0 +1,38 @@
+﻿[
+  {
+    "fFoodName": "*Bar Sales",
+    "fResFoodIntr": "Bar Sales",
+    "fResFoodPic": "http://differenzuat.com/democart/assets/content/images/item/1.jpg",
+    "fResFoodID": "4050-10",
+    "fBasePrice": "$150",
+    "fCost": "$155",
+    "fItemType": "Beverage"
+  },
+  {
+    "fFoodName": "*Bar Sales1",
+    "fResFoodIntr": "Bar Sales1",
+    "fResFoodPic": "http://differenzuat.com/democart/assets/content/images/item/2.jpg",
+    "fResFoodID": "4050-11",
+    "fBasePrice": "$140",
+    "fCost": "$142",
+    "fItemType": "Beverage"
+  },
+  {
+    "fFoodName": "*Bar Sales2",
+    "fResFoodIntr": "Bar Sales2",
+    "fResFoodPic": "http://differenzuat.com/democart/assets/content/images/item/3.jpg",
+    "fResFoodID": "4050-12",
+    "fBasePrice": "$130",
+    "fCost": "$134",
+    "fItemType": "Beverage"
+  },
+  {
+    "fFoodName": "*Bar Sales3",
+    "fResFoodIntr": "Bar Sales3",
+    "fResFoodPic": "http://differenzuat.com/democart/assets/content/images/item/4.jpg",
+    "fResFoodID": "4050-13",
+    "fBasePrice": "$120",
+    "fCost": "$123",
+    "fItemType": "Beverage"
+  }
+]
